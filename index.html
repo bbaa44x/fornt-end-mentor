@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR-challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    body {
+      padding-top: 200px;
+      padding-left: 200px;
+    }
+
+    .wrapper {
+      background-color: hsl(212, 45%, 89%);
+      width: 1440px;
+      display: flex;
+      flex-direction: column;
+      border: solid;
+      border-width: 0px;
+      align-items: center;
+      height: 700px;
+    }
+    .box {
+      background-color: hsl(0, 0%, 100%);
+      margin-top: 150px;
+      width: 260px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      border-radius: 15px;
+      align-items: center;
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+      gap: 10px;
+    }
+
+    .img-div {
+      margin-top: 10px;
+    }
+    .img {
+      width: 224px;
+      border-radius: 10px;
+    }
+
+    .wrapper-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 30px;
+      gap: 10px;
+    }
+
+    .text-1 {
+      font-family: outfit, arial;
+      font-size: 18px;
+      color: hsl(218, 44%, 22%);
+      font-weight: bold;
+      width: 220px;
+      margin: 0px;
+    }
+
+    p {
+      margin: 0px;
+    }
+
+    .text-2 {
+      width: 240px;
+      font-family: outfit;
+      color: hsl(220, 15%, 55%);
+      font-size: 16px;
+      font-weight: 400;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <div class="img-div">
+          <img class="img" src="image-qr-code.png" />
+        </div>
+        <div class="wrapper-text">
+          <div class="text-1">
+            <p>Improve your front-end skills by building projects</p>
+          </div>
+          <div class="text-2">
+            <p>
+              &nbsp scan QR code to visit frontend Mentor and take coding skills
+              <span>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                &nbsp &nbsp &nbsp &nbsp to next level</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
